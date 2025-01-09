@@ -132,3 +132,12 @@ Payment: This software is a paid product, divided into two parts: usage payment 
 
 > **he4o is a free, non-profit AGI system aimed at promoting and ensuring the safety of artificial general intelligence development in accordance with ethical standards.**
 
+
+
+### Credits
+
+This project, **he4o**, was created and developed by **贾晓刚 (Jia Xiaogang)**.  
+GitHub: [https://github.com/jiaxiaogang](https://github.com/jiaxiaogang)
+
+We deeply appreciate his dedication and effort in advancing artificial general intelligence through the Spiral Entropy Reduction Machine model.  
+
