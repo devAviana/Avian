@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NVModuleView">
+            <connections>
+                <outlet property="containerView" destination="iN0-l3-epB" id="MaH-PF-uks"/>
+                <outlet property="titleLab" destination="nGz-Hr-NjD" id="fGe-rm-a9G"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="478" height="332"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nGz-Hr-NjD">
+                    <rect key="frame" x="0.0" y="0.0" width="478" height="20"/>
+                    <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="9Yj-Wp-14K"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nXm-WR-YVi">
+                    <rect key="frame" x="448" y="0.0" width="30" height="20"/>
+                    <color key="backgroundColor" red="0.88220167400000005" green="1" blue="0.0" alpha="0.30223921654929575" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="798-fq-fYF"/>
+                        <constraint firstAttribute="width" constant="30" id="iSD-13-T59"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                    <state key="normal" title="清模块">
+                        <color key="titleColor" red="1" green="0.1019250594" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="clearBtnOnClick:" destination="-1" eventType="touchUpInside" id="k2V-sG-QTM"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PgE-JY-sfx">
+                    <rect key="frame" x="418" y="0.0" width="30" height="20"/>
+                    <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="0.30223921650000002" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="VSj-6Q-6MW"/>
+                        <constraint firstAttribute="width" constant="30" id="yoE-gW-N57"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                    <state key="normal" title="报名">
+                        <color key="titleColor" red="1" green="0.1019250594" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="showNameBtnOnClick:" destination="-1" eventType="touchUpInside" id="w6F-PM-wS6"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="nXm-WR-YVi" firstAttribute="leading" secondItem="PgE-JY-sfx" secondAttribute="trailing" id="9QX-36-rKa"/>
+                <constraint firstItem="PgE-JY-sfx" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="BnS-PX-toe"/>
+                <constraint firstAttribute="trailing" secondItem="nGz-Hr-NjD" secondAttribute="trailing" id="FNa-B9-UbT"/>
+                <constraint firstItem="nGz-Hr-NjD" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="JBK-A5-Zlg"/>
+                <constraint firstItem="nXm-WR-YVi" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="dyh-kY-vk6"/>
+                <constraint firstItem="nGz-Hr-NjD" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="gEg-fW-gLY"/>
+                <constraint firstAttribute="trailing" secondItem="nXm-WR-YVi" secondAttribute="trailing" id="ngL-uk-JID"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="185.59999999999999" y="-93.553223388305852"/>
+        </view>
+    </objects>
+</document>
